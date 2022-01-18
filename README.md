@@ -6,7 +6,7 @@
   - [What are collections and how do I know collections ID?](#what-are-collections-and-how-do-i-know-collections-id)
   - [What data is saved?](#what-data-is-saved)
   - [What if I want to fetch data of all my saved posts?](#what-if-i-want-to-fetch-data-of-all-my-saved-posts)
-  - [:exclamation: :exclamation: Credentials storage :exclamation: :exclamation:](#exclamation-exclamation-credentials-storage-exclamation-exclamation)
+  - [:exclamation::exclamation: Credentials storage :exclamation::exclamation:](#exclamation-exclamation-credentials-storage-exclamation-exclamation)
   - [Credits](#credits)
 
 ### Motivation
@@ -73,7 +73,7 @@ This script is not created to cater to such requirement, however it is possible 
 It should work, although I have not tested it.
 __________
 
-### :exclamation: :exclamation: Credentials storage :exclamation: :exclamation:
+### :exclamation::exclamation: Credentials storage :exclamation::exclamation:
 If you use this script for the first time your Instagram authentication cookie will get saved in a file called `credentials.json`. Script will use it for logging again if needed - or generate a new one if cookie is expired. 
 
 If you want to change the path of this file, change it on line `77`
