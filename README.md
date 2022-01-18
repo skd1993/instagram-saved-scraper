@@ -1,5 +1,14 @@
 ## Instagram saved collections scraper
 
+  - [Motivation](#motivation)
+  - [Pre-requisites](#pre-requisites)
+  - [How to run?](#how-to-run)
+  - [What are collections and how do I know collections ID?](#what-are-collections-and-how-do-i-know-collections-id)
+  - [What data is saved?](#what-data-is-saved)
+  - [What if I want to fetch data of all my saved posts?](#what-if-i-want-to-fetch-data-of-all-my-saved-posts)
+  - [:exclamation: :exclamation: Credentials storage :exclamation: :exclamation:](#exclamation-exclamation-credentials-storage-exclamation-exclamation)
+  - [Credits](#credits)
+
 ### Motivation
 I usually save posts and categorize them in collections on Instagram, so that I can access them later. However, it's not very conveninent to go through them as the list grows big over time. Also, I cannot share that list with my friends if I have to. So I created this very 'hacky' script to login to Instagram account, go find the saved items I want, and pull out related data into csv file, which be saved or shared with others.
 ____________
@@ -74,7 +83,5 @@ _____________
 
 ### Credits
 This script heavily relies on https://github.com/dilame/instagram-private-api library for Instagram API functions like logging in, getting posts etc. Thanks to the developer(s)!
-
-
 
 
